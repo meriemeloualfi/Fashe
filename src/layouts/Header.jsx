@@ -16,7 +16,7 @@ export const Header = () => {
             {/* <label htmlFor="switcher" className='menu-icon' >&#9776;</label> */}
                 {/* logo div */}
                 <div className=''>
-                    <img src={images.logo} alt="" />
+                    <img onClick={() => {navigate("/")}}src={images.logo} alt="" />
                 </div>
 
                 {/* links div */}
@@ -29,7 +29,7 @@ export const Header = () => {
                         </li>
                         <li className='cursor-pointer text-[#333] text-[18px] '>Shop</li>
                         <li className='cursor-pointer text-[#333] text-[18px]'>Blog</li>
-                        <li className='cursor-pointer text-[#333] text-[18px]'>About</li>
+                        <li onClick={() => {navigate("/About")}} className='cursor-pointer text-[#333] text-[18px]'>About</li>
                         <li className='cursor-pointer text-[#333] text-[18px]'>Contact</li>
                     </ul>
                 </div>
