@@ -1,12 +1,19 @@
+import React from "react";
+
+import { Route,Routes } from "react-router";
+import { Header } from "./layouts/Header";
+import { About } from "./pages/about/about";
 
 
 function App() {
   return (
-    <div >
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <>
+    <Header/>
+    <Routes>
+                    <Route path='/About' element={<About/>} />
+
+    </Routes>
+    </>
   );
 }
 
