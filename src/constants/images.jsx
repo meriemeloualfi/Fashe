@@ -5,6 +5,10 @@ export default{
     slide1: require('../assets/images/carousel1.jpg'),
     slide2: require('../assets/images/carousel2.jpg'),
     slide3: require('../assets/images/carousel3.webp'),
-
-
+    banner02: require('../assets/images/banner-02.jpg'),
+    banner05: require('../assets/images/banner-05.jpg'),
+    banner03: require('../assets/images/banner-03.jpg'),
+    banner07: require('../assets/images/banner-07.jpg'),
+    banner04: require('../assets/images/banner-04.jpg'),
+    banner09: require('../assets/images/banner-09.jpg')
 }
