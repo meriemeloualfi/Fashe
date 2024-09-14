@@ -5,7 +5,7 @@ import { images } from "../../constants"
 export const Contact = () => {
     return (
         <>
-            <div>
+            <div className="mt-[100px]">
                 <img src={images.heading6} alt="" className='h-[35vh]  relative' />
                 <h1 className='absolute top-[25vh] left-[10vw] lg:top-[23vh] lg:left-[40vw] text-white font-bold text-7xl'>CONTACT</h1>
             </div>

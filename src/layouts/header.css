@@ -1,3 +1,8 @@
+.menu-icon, .close {
+    display: none;
+  }
+
+
 @media (max-width: 428px) {
     nav {
       
