@@ -1,0 +1,42 @@
+@media (max-width: 428px) {
+    .about-title {
+        top: 20%;
+        left: 10%;
+        font-size: 24px; 
+    }
+
+    .about-img {
+        height: 200px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 16px; 
+    }
+
+    .about-content img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .text-content h1 {
+        font-size: 18px; 
+    }
+    .text-content p {
+        font-size: 14px; 
+    }
+
+    .quote {
+        border-left-width: 1px; 
+        padding-left: 8px; 
+        padding-top: 8px;
+    }
+
+    .quote-text {
+        font-size: 14px;
+    }
+
+    .quote-author {
+        font-size: 12px;
+    }
+}

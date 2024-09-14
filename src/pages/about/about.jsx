@@ -1,5 +1,5 @@
 import { images } from "../../constants"
-
+import './about.css'
 
 export const About = () => {
     return (

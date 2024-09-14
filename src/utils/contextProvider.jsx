@@ -66,7 +66,7 @@ export const MyProvider = ({ children }) => {
             name: 'Boxy5 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product5,
-            price : 24.00,
+            price : '$24.00',
             size: [ 'M', 'XS'],
             category: 'NEW'
 
@@ -76,7 +76,7 @@ export const MyProvider = ({ children }) => {
             name: 'Boxy6 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product6,
-            price : 26.00,
+            price : '$26.00',
             size: [ 'M', 'XS'],
             category: 'NEW'
         },
@@ -85,7 +85,7 @@ export const MyProvider = ({ children }) => {
             name: 'Boxy7 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product7,
-            price : 27.00,
+            price : '$27.00',
             size: [ 'M', 'XS'],
             category: 'SALE'
         },
@@ -94,7 +94,7 @@ export const MyProvider = ({ children }) => {
             name: 'Boxy8 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product8,
-            price : 28.00,
+            price : '$28.00',
             size: ['S', 'L', 'M', 'XS'],
             category: 'NEW'
         },
@@ -103,7 +103,7 @@ export const MyProvider = ({ children }) => {
             name: 'Boxy9 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product9,
-            price : 29.00,
+            price : '$29.00',
             size: ['S', 'L', 'M', 'XS'],
             category: 'OLD'
         },
@@ -112,53 +112,53 @@ export const MyProvider = ({ children }) => {
             name: 'Boxy10 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product10,
-            price : 30.00,
+            price : '$30.00',
             category: 'OLD'
         },
         {
             name: 'Boxy11 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product11,
-            price : 31.00,
+            price : '$31.00',
             category: 'OLD'
         },
         {
             name: 'Boxy12 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product12,
-            price : 32.00,
+            price : '$32.00',
             category: 'SALE'
         },
         {
             name: 'Boxy13 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product13,
-            price : 33.00,
-            // category: 'SALE'
+            price : '$32.00',
+            
         },
         {
             name: 'Boxy14 T-Shirt with Roll Sleeve',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product14,
-            price : 40.00
+            price : '$32.00'
         },
         {
             name: 'item15',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product15,
-            price : 50.00
+            price : '$32.00'
         },
         {
             name: 'item16',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product16,
-            price : 60.00
+            price : '$32.00'
         },
         {
             name: 'item17',
             desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Numquam nobis, doloribus et obcaecati labore ullam vitae eum cumque eius odio.',
             img : product17,
-            price : 70.00
+            price : '$70.00'
         }
 
 

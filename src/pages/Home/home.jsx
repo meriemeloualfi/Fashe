@@ -132,17 +132,18 @@ const Home = () => {
   <div className='flex justify-center p-4'>
                         <h1 className='text-4xl font-semibold'>FEATURED PRODUCTS</h1>
                     </div>
-
+ 
                     <div className='flex justify-center w-full p-4'>
-                    <Tabs aria-label="Tabs with " style={{textDecoration: ''}} className='flex flex-col items-center gap-3 justify-center w-full'>
-                        <TabList className={'text-orange-500 flex gap-4 text-2xl'}>
-                            <Tab className={`cursor-pointer transition-all bg-orange-500 text-blac px-6 py-2 rounded-lgborder-orange-500 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
-                            active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-orange-300 shadow-orange-300 active:shadow-none`}>Sale</Tab>
-                            <Tab className={`cursor-pointer transition-all bg-orange-500 text-black  px-6 py-2 rounded-lgborder-orange-500 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
-                            active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-orange-300 shadow-orange-300 active:shadow-none`}>New</Tab>
-                            <Tab className={`cursor-pointer transition-all bg-orange-500 text-black  px-6 py-2 rounded-lgborder-orange-500 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
-                            active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-xl hover:shadow-orange-300 shadow-orange-300 active:shadow-none`} >Old</Tab>
+                    <Tabs className='flex flex-col items-center gap-3 justify-center w-full'>
+                        <TabList className={'text-orange-500 flex gap-4 text-xl'}>
+                            <Tab className={`cursor-pointer transition-all bg-orange-500 text-black px-6 py-2 rounded-lg border-orange-500 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+                            active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-l `}>Sale</Tab>
+                            <Tab className={`cursor-pointer transition-all bg-orange-500 text-black  px-6 py-2 rounded-lg border-orange-500 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+                            active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-l`}>New</Tab>
+                            <Tab className={`cursor-pointer transition-all bg-orange-500 text-black  px-6 py-2 rounded-lg border-orange-500 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]
+                            active:border-b-[2px] active:brightness-90 active:translate-y-[2px] hover:shadow-l `} >Old</Tab>
                         </TabList>
+                        
                         <TabPanel>
                             <div className='lg:flex lg:flex-row flex flex-col  gap-7 '>
                                     {
@@ -163,7 +164,7 @@ const Home = () => {
                                                 </div>
                                                 <div className='flex flex-col'>
                                                     <h6 onClick={() => navigate(`/product/${element.name}`)} className=' no-underlin text-gray-400 hover:text-orange-400 duration-600' >{element.name}</h6>
-                                                    <p className='text-gray-600'>{element.price}</p>    
+                                                    <p className='text-gray-400'>{element.price}</p>    
                                                 </div>
                                             </div>
                                         )
