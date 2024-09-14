@@ -15,12 +15,12 @@ export const Header = () => {
             <nav className='bg-white fixed top-0 left-0 w-full z-50 flex items-center justify-between px-14 py-8 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
             <input type="checkbox" id='switcher' className='d-none' /> 
              <label htmlFor="switcher" className='menu-icon' >&#9776;</label>
-                {/* logo div */}
+            
                 <div className=''>
                     <img onClick={() => {navigate("/")}}src={images.logo} alt="" />
                 </div>
 
-                {/* links div */}
+              
                 <div className='links'>
                     <ul className='flex items-center gap-10'>
                         <li onClick={() => {navigate('/')}} className='close'><VscClose size={30}/></li>
@@ -34,7 +34,7 @@ export const Header = () => {
                     </ul>
                 </div>
 
-                {/* right div  */}
+             
                 <div className='flex items-center gap-10'>
                     <div><FiUser size={30} className='text-gray-500' onClick={() => navigate(`/Login`)}/></div>
                     <div><BiCartDownload size={30} className='text-gray-500'onClick={() => navigate(`/Addcart`)}/></div>

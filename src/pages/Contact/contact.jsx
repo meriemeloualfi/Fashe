@@ -1,5 +1,6 @@
 
 import React from "react"
+import './contact.css'
 import { images } from "../../constants"
 
 export const Contact = () => {
