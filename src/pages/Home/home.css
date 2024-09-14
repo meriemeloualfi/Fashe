@@ -22,4 +22,33 @@
     background-size: cover;
     background-position: center;
 }
-    
+
+
+
+  @media (max-width: 428px) {
+    .container {
+      padding: 0 10px;
+    }
+  
+    .product-card, .blog-card {
+      margin-bottom: 12px;
+    }
+  
+    .product-card .title {
+      font-size: 0.9rem;
+    }
+  
+    .tabs-container {
+      text-align: center;
+    }
+  
+    .carousel-item img {
+      height: auto;
+    }
+  
+    .product-card img, .blog-card img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

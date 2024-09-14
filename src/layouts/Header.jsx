@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css'
 import { images } from '../constants';
 import { FiUser } from "react-icons/fi";
 import { BiCartDownload } from "react-icons/bi";
@@ -12,8 +13,8 @@ export const Header = () => {
     return (
         <>
             <nav className='bg-white fixed top-0 left-0 w-full z-50 flex items-center justify-between px-14 py-8 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
-            {/* <input type="checkbox" id='switcher' className='d-none' /> */}
-            {/* <label htmlFor="switcher" className='menu-icon' >&#9776;</label> */}
+            <input type="checkbox" id='switcher' className='d-none' /> 
+             <label htmlFor="switcher" className='menu-icon' >&#9776;</label>
                 {/* logo div */}
                 <div className=''>
                     <img onClick={() => {navigate("/")}}src={images.logo} alt="" />
@@ -22,10 +23,9 @@ export const Header = () => {
                 {/* links div */}
                 <div className='links'>
                     <ul className='flex items-center gap-10'>
-                        {/* <li onClick={() => {navigate('/')}} className='close'><VscClose size={30}/></li> */}
+                        <li onClick={() => {navigate('/')}} className='close'><VscClose size={30}/></li>
                         <li onClick={() => {navigate("/")}} className='flex items-center justify-between cursor-pointer text-[#333]'>
                             Home
-                            {/* <div className='icon'><IoIosArrowForward/></div> */}
                         </li>
                         <li onClick={() => {navigate("/Shop")}}className='cursor-pointer text-[#333] text-[18px] '>Shop</li>
                         <li className='cursor-pointer text-[#333] text-[18px]'>Blog</li>

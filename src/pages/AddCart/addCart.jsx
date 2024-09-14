@@ -10,7 +10,7 @@ export const Addcart = () => {
 
     return (
         <>
-        <div>
+        <div className='mt-[100px]'>
             <img src={images.heading1} alt="" className='h-[35vh] relative' />
             <h1 className='absolute top-[23vh] left-[40vw] text-white text-center font-bold text-5xl'>Your Shopping Cart</h1>
         </div>
@@ -49,7 +49,7 @@ export const Addcart = () => {
                     <h1>Cart Total</h1>
                     <div className='flex gap-4 items-center '>
                         <h3>Subtotal:</h3>
-                        <h2>$20.00</h2>
+                        <h2>$0.00</h2>
                     </div>
                     <button className='h-[8vh] w-[20vw] rounded-3xl text-slate-50 p-3 bg-green-950'>PROCEED TO CHECK OUT</button>
                 </div>

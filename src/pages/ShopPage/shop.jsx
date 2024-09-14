@@ -55,7 +55,7 @@ export const Shop = () => {
 
     return (
         <>
-            <div>
+            <div className='mt-[100px]'>
                 <img src={images.heading2} alt="" className='h-[35vh]  relative' />
                 <h1 className='absolute top-[25vh] left-[20vw] lg:top-[23vh] lg:left-[40vw] text-white font-bold text-7xl'>ABOUT</h1>
             </div>  
