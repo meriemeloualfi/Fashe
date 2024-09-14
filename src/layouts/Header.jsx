@@ -30,7 +30,7 @@ export const Header = () => {
                         <li className='cursor-pointer text-[#333] text-[18px] '>Shop</li>
                         <li className='cursor-pointer text-[#333] text-[18px]'>Blog</li>
                         <li onClick={() => {navigate("/About")}} className='cursor-pointer text-[#333] text-[18px]'>About</li>
-                        <li className='cursor-pointer text-[#333] text-[18px]'>Contact</li>
+                        <li  onClick={() => {navigate("/Contact")}} className='cursor-pointer text-[#333] text-[18px]'>Contact</li>
                     </ul>
                 </div>
 

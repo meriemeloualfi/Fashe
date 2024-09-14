@@ -16,5 +16,5 @@ export default{
     blog1: require('../assets/images/blog-01.jpg'),
     blog2: require('../assets/images/blog-02.jpg'),
     blog3: require('../assets/images/blog-03.jpg'),
-
+    heading6: require('../assets/images/heading-pages-06.jpg')
 }

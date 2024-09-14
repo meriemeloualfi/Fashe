@@ -6,6 +6,7 @@ import { About } from "./pages/about/about";
 import { Footer } from "./layouts/Footer";
 import Home from "./pages/Home/home";
 import { MyProvider } from "./utils/contextProvider";
+import { Contact } from "./pages/Contact/contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Routes>
                     <Route path='/About' element={<About/>} />
                     <Route path='/' element={<Home/>}/>
+                    <Route path='/Contact' element={<Contact/>} />
 
     </Routes>
     </MyProvider>
