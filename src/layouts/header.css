@@ -15,11 +15,13 @@
       align-items: center;
       justify-content: space-between;
       width: 100%;
+     
     }
   
   
     nav img {
-      height: 30px; 
+      height: 30px;
+      
     }
   
   
@@ -54,5 +56,9 @@
    
     #switcher:checked ~ .links {
       display: flex;
+    }
+    .nav{
+        background-color: orangered;
+        
     }
   }
