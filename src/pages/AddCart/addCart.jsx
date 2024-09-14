@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect } from 'react';
 import { MyContext } from '../../utils/contextProvider';
 import { images } from '../../constants';
+import './addCart.css'
 
 export const Addcart = () => {
     const [data, setData, basket, setBasket] = useContext(MyContext);

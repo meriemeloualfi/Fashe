@@ -24,7 +24,7 @@ export const Header = () => {
                 <div className='links'>
                     <ul className='flex items-center gap-10'>
                         <li onClick={() => {navigate('/')}} className='close'><VscClose size={30}/></li>
-                        <li onClick={() => {navigate("/")}} className='flex items-center justify-between cursor-pointer text-[#333]'>
+                        <li onClick={() => {navigate("/")}} className='flex items-center justify-between cursor-pointer text-[#333] text-[18px]'>
                             Home
                         </li>
                         <li onClick={() => {navigate("/Shop")}}className='cursor-pointer text-[#333] text-[18px] '>Shop</li>
