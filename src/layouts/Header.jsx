@@ -11,7 +11,7 @@ export const Header = () => {
 
     return (
         <>
-            <nav className='bg-white flex items-center justify-between px-14 py-8 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]'>
+            <nav className='bg-white fixed top-0 left-0 w-full z-50 flex items-center justify-between px-14 py-8 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] '>
             {/* <input type="checkbox" id='switcher' className='d-none' /> */}
             {/* <label htmlFor="switcher" className='menu-icon' >&#9776;</label> */}
                 {/* logo div */}

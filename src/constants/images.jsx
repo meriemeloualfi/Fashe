@@ -10,5 +10,11 @@ export default{
     banner03: require('../assets/images/banner-03.jpg'),
     banner07: require('../assets/images/banner-07.jpg'),
     banner04: require('../assets/images/banner-04.jpg'),
-    banner09: require('../assets/images/banner-09.jpg')
+    banner09: require('../assets/images/banner-09.jpg'),
+    banner08: require('../assets/images/banner-08.jpg'),
+    shopitem1: require('../assets/images/shop-item-09.jpg'),
+    blog1: require('../assets/images/blog-01.jpg'),
+    blog2: require('../assets/images/blog-02.jpg'),
+    blog3: require('../assets/images/blog-03.jpg'),
+
 }
