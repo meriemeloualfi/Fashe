@@ -3,6 +3,7 @@ import { useContext, useState } from 'react';
 import { MyContext } from '../../utils/contextProvider';
 import { useNavigate } from 'react-router-dom';
 import { images } from '../../constants';
+import './shop.css'
 
 export const Shop = () => {
     const [data, setData , basket,setbasket] = useContext(MyContext);
@@ -57,7 +58,7 @@ export const Shop = () => {
         <>
             <div className='mt-[100px]'>
                 <img src={images.heading2} alt="" className='h-[35vh]  relative' />
-                <h1 className='absolute top-[25vh] left-[20vw] lg:top-[23vh] lg:left-[40vw] text-white font-bold text-7xl'>ABOUT</h1>
+                <h1 className='absolute top-[25vh] left-[20vw] lg:top-[23vh] lg:left-[40vw] text-white font-bold text-7xl'>Products</h1>
             </div>  
             <div className='flex lg:flex lg:flex-row flex-col gap-14 p-2'>
                 <div className='flex flex-col gap-6 w-[20vw] p-12'>
