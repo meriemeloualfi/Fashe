@@ -27,7 +27,7 @@ export const Header = () => {
                             Home
                             {/* <div className='icon'><IoIosArrowForward/></div> */}
                         </li>
-                        <li className='cursor-pointer text-[#333] text-[18px] '>Shop</li>
+                        <li onClick={() => {navigate("/Shop")}}className='cursor-pointer text-[#333] text-[18px] '>Shop</li>
                         <li className='cursor-pointer text-[#333] text-[18px]'>Blog</li>
                         <li onClick={() => {navigate("/About")}} className='cursor-pointer text-[#333] text-[18px]'>About</li>
                         <li  onClick={() => {navigate("/Contact")}} className='cursor-pointer text-[#333] text-[18px]'>Contact</li>
@@ -37,7 +37,7 @@ export const Header = () => {
                 {/* right div  */}
                 <div className='flex items-center gap-10'>
                     <div><FiUser size={30} className='text-gray-500'/></div>
-                    <div><BiCartDownload size={30} className='text-gray-500'/></div>
+                    <div><BiCartDownload size={30} className='text-gray-500'onClick={() => navigate(`/Addcart`)}/></div>
                 </div>
             </nav>
             
