@@ -36,7 +36,7 @@ export const Header = () => {
 
                 {/* right div  */}
                 <div className='flex items-center gap-10'>
-                    <div><FiUser size={30} className='text-gray-500'/></div>
+                    <div><FiUser size={30} className='text-gray-500' onClick={() => navigate(`/Login`)}/></div>
                     <div><BiCartDownload size={30} className='text-gray-500'onClick={() => navigate(`/Addcart`)}/></div>
                 </div>
             </nav>

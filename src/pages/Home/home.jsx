@@ -53,8 +53,8 @@ const Home = () => {
 
   return (
     <>
-    <Carousel>
-      <Carousel.Item className="w-full">
+    <Carousel className="mt-[100px]">
+      <Carousel.Item className="w-full ">
         <div className="item1 flex flex-col justify-center items-center gap-3 text-white">
         <p className="text-2xl">Women Collection 2018</p>
           <h1 className="text-7xl p-9 text-center font-bold">NEW ARRIVALS</h1>
