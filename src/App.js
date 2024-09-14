@@ -9,6 +9,7 @@ import { MyProvider } from "./utils/contextProvider";
 import { Contact } from "./pages/Contact/contact";
 import { Shop } from "./pages/ShopPage/shop";
 import { Addcart } from "./pages/AddCart/addCart";
+import { Product } from "./pages/product/product";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/' element={<Home/>}/>
                     <Route path='/Shop' element={<Shop/>} />
                     <Route path='/Addcart' element={<Addcart/>} />
+                    <Route path='/product/:name' element={<Product/>} />
                     <Route path='/Contact' element={<Contact/>} />
 
     </Routes>

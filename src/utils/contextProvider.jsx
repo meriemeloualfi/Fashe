@@ -24,7 +24,7 @@ export const MyContext = createContext()
 export const MyProvider = ({ children }) => {
     const [data, setData] = useState([
         {
-            name: 'Boxy7 T-Shirt with Roll Sleeve',
+            name: 'Boxy1 T-Shirt with Roll Sleeve',
             desc: 'Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....',
             img: product1,
             price: '$20.00',
@@ -33,7 +33,7 @@ export const MyProvider = ({ children }) => {
         },
 
         {
-            name: 'Boxy6 T-Shirt with Roll Sleeve',
+            name: 'Boxy2 T-Shirt with Roll Sleeve',
             desc: 'Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....',
             img: product2,
             price: '$20.00',
@@ -43,7 +43,7 @@ export const MyProvider = ({ children }) => {
         },
 
         {
-            name: 'Boxy5 T-Shirt with Roll Sleeve',
+            name: 'Boxy3 T-Shirt with Roll Sleeve',
             desc: 'Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....',
             img: product3,
             price: '$20.00',
